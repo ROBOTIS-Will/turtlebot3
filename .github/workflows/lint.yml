@@ -12,7 +12,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  ament_lint:
+  ament_lint_bionic:
     runs-on: ubuntu-18.04
     strategy:
       fail-fast: false
@@ -35,8 +35,7 @@ jobs:
             turtlebot3_navigation2
             turtlebot3_node
             turtlebot3_teleop
-jobs:
-  ament_lint:
+  ament_lint_focal:
     runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
